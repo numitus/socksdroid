@@ -83,6 +83,7 @@ public class ProfileFragment extends PreferenceFragment implements Preference.On
         mManager = new ProfileManager(getActivity().getApplicationContext());
         initPreferences();
         reload();
+
     }
 
     @Override
@@ -95,6 +96,9 @@ public class ProfileFragment extends PreferenceFragment implements Preference.On
         mSwitch.setOnCheckedChangeListener(this);
         mSwitch.postDelayed(mStateRunnable, 1000);
         checkState();
+        if (this.mProfile.autoConnect()){
+            this.startVpn();
+        }
     }
 
     @Override

@@ -3,7 +3,7 @@ SocksDroid
 
 ## SOCKS5 client for Android 5.0+ using VpnService
 
-This is an updated version of [SocksDroid by PeterCxy](https://github.com/PeterCxy/SocksDroid) to support modern Android devices.
+This is an updated version of [SocksDroid by PeterCxy](https://github.com/PeterCxy/SocksDroid) to support modern Android devices and allow to autostart VPN after application launch.
 
 The project is in maintenance mode: no new features are planned, only bug fixes and compatibility upgrades.
 
